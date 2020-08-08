@@ -44,9 +44,7 @@ var userId =[
               let img= document.getElementById('img');
             
               img.innerHTML=item.img + item.text + " " + item.firstName + " " + item.lastName;
-             img.style.width="200px";
-             img.style.height="200px"
-            ;
+            
                
                }else{
                    console.log ("You are not allowed");
